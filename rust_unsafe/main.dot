@@ -1,0 +1,9 @@
+digraph code {
+	graph [bgcolor=white fontname="Courier"];
+	node [color=gray, style=filled shape=box];
+	edge [arrowhead="vee"];
+	"0x00005880" -> "0x00005870" [label="sym.rust_helloworld::main::h40ece3e81cf905b6" color="red" URL="sym.rust_helloworld::main::h40ece3e81cf905b6/0x00005870"];
+	"0x00005870" [label="sym.rust_helloworld::main::h40ece3e81cf905b6" URL="sym.rust_helloworld::main::h40ece3e81cf905b6/0x00005870"];
+	"0x00005880" -> "0x0000c8b0" [label="sym.std::rt::lang_start::hbcefdc316c2fbd45" color="green" URL="sym.std::rt::lang_start::hbcefdc316c2fbd45/0x0000c8b0"];
+	"0x0000c8b0" [label="sym.std::rt::lang_start::hbcefdc316c2fbd45" URL="sym.std::rt::lang_start::hbcefdc316c2fbd45/0x0000c8b0"];
+}

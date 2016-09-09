@@ -1,0 +1,13 @@
+digraph code {
+	graph [bgcolor=white fontname="Courier"];
+	node [color=gray, style=filled shape=box];
+	edge [arrowhead="vee"];
+	"0x000053a0" -> "0x00045b80" [label="sym.__libc_csu_fini" color="red" URL="sym.__libc_csu_fini/0x00045b80"];
+	"0x00045b80" [label="sym.__libc_csu_fini" URL="sym.__libc_csu_fini/0x00045b80"];
+	"0x000053a0" -> "0x00045b10" [label="sym.__libc_csu_init" color="red" URL="sym.__libc_csu_init/0x00045b10"];
+	"0x00045b10" [label="sym.__libc_csu_init" URL="sym.__libc_csu_init/0x00045b10"];
+	"0x000053a0" -> "0x00005880" [label="sym.main" color="red" URL="sym.main/0x00005880"];
+	"0x00005880" [label="sym.main" URL="sym.main/0x00005880"];
+	"0x000053a0" -> "0x00005020" [label="sym.imp.__libc_start_main" color="green" URL="sym.imp.__libc_start_main/0x00005020"];
+	"0x00005020" [label="sym.imp.__libc_start_main" URL="sym.imp.__libc_start_main/0x00005020"];
+}
